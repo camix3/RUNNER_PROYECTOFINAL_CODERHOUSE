@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Lose : MonoBehaviour
 {
-    public TMPro.TextMeshProUGUI Texter;
-    public int TimesDead = 0;
+    public GameObject LoseScreen;
+    public Generator generator;
     private void Awake()
     {
         Trap.OnTrap += Trap_Ontrap;
@@ -13,9 +13,9 @@ public class Lose : MonoBehaviour
 
     private void Trap_Ontrap(TrapType trapType) 
     {
-        TimesDead++;
-        Texter.text = $"You are Dead! { TimesDead }";
+       LoseScreen.SetActive(true);
+        generator.enabled= false;
     }
-    // Update is called once per frame
+    
    
 }

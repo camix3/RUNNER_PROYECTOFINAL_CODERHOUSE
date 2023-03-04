@@ -6,13 +6,16 @@ using UnityEngine;
 public class Generator : MonoBehaviour
 {
     public Pool ItemsPool;
+    public Pool SafeItemsPool;
 
     Queue<Transform> elements;
     public float Increment = 0.01f;
-    public float Speed;
+    public float Speed = 6;
+    private float speed;
     public Vector3 Direction;
     public Vector3 offset;
     public int Quantity = 25;
+    public int SafeQuantity = 3;
     public float Displace = 15f;
 
     Transform tr;
@@ -23,18 +26,38 @@ public class Generator : MonoBehaviour
     int moved = 0;
 
 
-    private void OnEnable()
+    private void Awake()
     {
         ItemsPool.Initialize();
+        SafeItemsPool.Initialize();
         tr= transform;
         originalPos = tr.position;
         elements = new Queue<Transform>();
+    }
+
+    public void Clean() 
+    {
+        while (elements.Any()) 
+        {
+            elements.Dequeue().gameObject.SetActive(false);
+        }
+
+    }
+    public void Generate()
+    {
+        
+        
         for (int i =0; i <Quantity ; i++) 
         {
-            var elemntTransform = ItemsPool.GetRandom();
+            tr.position = originalPos;
+            speed = Speed;
+            currentDisplace = 0;
+            moved = 0;
+            var elemntTransform = i < SafeQuantity ? SafeItemsPool.GetRandom() : ItemsPool.GetRandom();
             elemntTransform.position = offset - Direction * Displace * i;
             elemntTransform.gameObject.SetActive(true);
             elements.Enqueue(elemntTransform);
+            
         }
     }
 

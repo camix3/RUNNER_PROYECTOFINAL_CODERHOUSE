@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Follow : MonoBehaviour
 {
-
     Transform tr;
     public Transform Target;
     public float Speed = 5f;

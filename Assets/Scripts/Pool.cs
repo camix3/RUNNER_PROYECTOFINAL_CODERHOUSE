@@ -20,9 +20,13 @@ public class Pool : MonoBehaviour
     public Transform GetRandom() 
     {
        var actived = instanced.Where(t => !t.gameObject.activeSelf).ToArray();
-        return actived[Random.Range(0, actived.Length)];
-
-        
+        return actived[Random.Range(0, actived.Length)];  
+    } 
+    
+    public Transform GetRandomSafe() 
+    {
+       var actived = instanced.Where(t => !t.gameObject.activeSelf).ToArray();
+        return actived[Random.Range(0, actived.Length)]; 
     }
 }
 
@@ -31,6 +35,7 @@ public class PoolItem
 {
     public Transform Prefab;
     public int Quantity;
+    public bool IsSafe;
 
     public Transform[] Instantiate(Transform parent) 
     {
