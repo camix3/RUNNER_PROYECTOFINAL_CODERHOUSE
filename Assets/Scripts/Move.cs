@@ -25,10 +25,11 @@ public class Move : MonoBehaviour
     float xRotation;
 
     internal Transform tr;
-
+    internal Animator animator;
     void Awake()   
     {
         tr= transform;
+        animator = GetComponent<Animator>();
         yOriginal = tr.position.y;
         
     }
@@ -38,8 +39,12 @@ public class Move : MonoBehaviour
     {
         Horizontal += Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
 
-        if (!Jumping && !Sliding && Input.GetButtonDown("Jump"))
+        if (!Jumping && !Sliding && Input.GetButtonDown("Jump")) 
+        {
+            animator.SetTrigger("Jump");
             StartCoroutine(fly());
+
+        }
         
         if (!Jumping && !Sliding && Input.GetButtonDown("Fire1"))
             StartCoroutine(slide());
@@ -50,18 +55,18 @@ public class Move : MonoBehaviour
         Pivot.rotation = Quaternion.Euler(xRotation, 0, 0);
 
     }
-
-    public IEnumerator fly() 
+     
+    public IEnumerator fly() //(JUMP)
     {
         Jumping = true;
         float d = 0;
         while (d < JumpDuration) 
-        {
+        {        
+
             d += Time.deltaTime;
             yOffset = JumpCurve.Evaluate(d/JumpDuration) * JumpScale;
             yield return null;
-        }
-
+        }              
         Jumping = false;
     }
 
@@ -69,6 +74,7 @@ public class Move : MonoBehaviour
     {
         Sliding = true;
         float d = 0;
+
         while (d < SlideUpDownDuration) 
         {
             d += Time.deltaTime;

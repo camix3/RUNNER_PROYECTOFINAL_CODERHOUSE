@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: e40d8542f5358bf439e886d836ba0ee5
+guid: a6ab668846d77aa48b65c71b93cf4dd7
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 2
-    materialName: 0
+    materialName: 1
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -31,36 +31,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Running
-      takeName: mixamo.com
-      internalID: -203655887218126122
-      firstFrame: 0
-      lastFrame: 21
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -526,53 +497,53 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: PC Computer - Shrek Forever After - Fiona@Running (1)(Clone)
+    - name: PC Computer - Shrek Forever After - Fiona@Running(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Mesh_0178_Mesh_0178Mesh
-      parentName: PC Computer - Shrek Forever After - Fiona@Running (1)(Clone)
+      parentName: PC Computer - Shrek Forever After - Fiona@Running(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Mesh_0179_Mesh_0179Mesh
-      parentName: PC Computer - Shrek Forever After - Fiona@Running (1)(Clone)
+      parentName: PC Computer - Shrek Forever After - Fiona@Running(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Mesh_0157_Mesh_0157Mesh
-      parentName: PC Computer - Shrek Forever After - Fiona@Running (1)(Clone)
+      parentName: PC Computer - Shrek Forever After - Fiona@Running(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Mesh_0159_Mesh_0159Mesh
-      parentName: PC Computer - Shrek Forever After - Fiona@Running (1)(Clone)
+      parentName: PC Computer - Shrek Forever After - Fiona@Running(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Mesh_0166_Mesh_0166Mesh
-      parentName: PC Computer - Shrek Forever After - Fiona@Running (1)(Clone)
+      parentName: PC Computer - Shrek Forever After - Fiona@Running(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Mesh_0162_Mesh_0162Mesh
-      parentName: PC Computer - Shrek Forever After - Fiona@Running (1)(Clone)
+      parentName: PC Computer - Shrek Forever After - Fiona@Running(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Mesh_0160_Mesh_0160Mesh
-      parentName: PC Computer - Shrek Forever After - Fiona@Running (1)(Clone)
+      parentName: PC Computer - Shrek Forever After - Fiona@Running(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Mesh_0654_Mesh_0654Mesh
-      parentName: PC Computer - Shrek Forever After - Fiona@Running (1)(Clone)
+      parentName: PC Computer - Shrek Forever After - Fiona@Running(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:Hips
-      parentName: PC Computer - Shrek Forever After - Fiona@Running (1)(Clone)
+      parentName: PC Computer - Shrek Forever After - Fiona@Running(Clone)
       position: {x: -0.000043601893, y: 0.008789997, z: 0.00009031522}
       rotation: {x: -0.000000005820766, y: -0.0000000029103826, z: -0.0000000014551913,
         w: 1}
