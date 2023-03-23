@@ -25,11 +25,12 @@ public class Move : MonoBehaviour
     float xRotation;
 
     internal Transform tr;
-    internal Animator animator;
+    internal Animator anim;
+
     void Awake()   
     {
+        anim= GetComponentInChildren<Animator>();
         tr= transform;
-        animator = GetComponent<Animator>();
         yOriginal = tr.position.y;
         
     }
@@ -39,12 +40,8 @@ public class Move : MonoBehaviour
     {
         Horizontal += Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
 
-        if (!Jumping && !Sliding && Input.GetButtonDown("Jump")) 
-        {
-            animator.SetTrigger("Jump");
+        if (!Jumping && !Sliding && Input.GetButtonDown("Jump"))
             StartCoroutine(fly());
-
-        }
         
         if (!Jumping && !Sliding && Input.GetButtonDown("Fire1"))
             StartCoroutine(slide());
@@ -55,18 +52,19 @@ public class Move : MonoBehaviour
         Pivot.rotation = Quaternion.Euler(xRotation, 0, 0);
 
     }
-     
-    public IEnumerator fly() //(JUMP)
+    //esto es el salto, le puse "fly" porque con el "jump" se me hubiesen mezclado las cosas.
+    public IEnumerator fly() 
     {
         Jumping = true;
+        anim.CrossFade("Jump", .1f);
         float d = 0;
         while (d < JumpDuration) 
-        {        
-
+        {
             d += Time.deltaTime;
             yOffset = JumpCurve.Evaluate(d/JumpDuration) * JumpScale;
             yield return null;
-        }              
+        }
+        anim.CrossFade("Run", .1f);
         Jumping = false;
     }
 
@@ -74,20 +72,21 @@ public class Move : MonoBehaviour
     {
         Sliding = true;
         float d = 0;
+        anim.CrossFade("Slide", SlideUpDownDuration);
 
         while (d < SlideUpDownDuration) 
         {
             d += Time.deltaTime;
-            xRotation = slideCurve.Evaluate(d/JumpDuration) * SlideScale;
+            xRotation = slideCurve.Evaluate(d/ SlideUpDownDuration) * SlideScale;
             yield return null;
         }
 
         yield return new WaitForSeconds(SlideDuration);
-
+        anim.CrossFade("Run", SlideUpDownDuration);
         while (d > 0)
         {
             d -= Time.deltaTime;
-            xRotation = slideCurve.Evaluate(d / JumpDuration) * SlideScale;
+            xRotation = slideCurve.Evaluate(d / SlideUpDownDuration) * SlideScale;
             yield return null;
         }
 

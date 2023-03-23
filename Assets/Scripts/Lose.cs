@@ -13,7 +13,7 @@ public class Lose : MonoBehaviour
 
     private void Trap_Ontrap(TrapType trapType) 
     {
-        LoseScreen.SetActive(true);
+       LoseScreen.SetActive(true);
         generator.enabled= false;
     }
     
