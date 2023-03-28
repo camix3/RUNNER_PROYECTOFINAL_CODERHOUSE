@@ -28,4 +28,6 @@ public enum TrapType
 {
     impact,
     water,
+    fire,
+    lava,
 }

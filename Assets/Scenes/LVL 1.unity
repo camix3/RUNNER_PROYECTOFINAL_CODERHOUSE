@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: c0ba3ed2857aa5647b2e6a3fce31cbfc, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.6095933, g: 0.7019928, b: 0.8821918, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -305,10 +305,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Items:
-  - Prefab: {fileID: 7492721280114678380, guid: cec8589f9b8d9044cb83fc1978d8b79e,
+  - Prefab: {fileID: 3389786643091441743, guid: 0a3510939521e1340b58528084843999,
       type: 3}
     Quantity: 3
-    IsSafe: 0
+    IsSafe: 1
   instanced: []
 --- !u!4 &281364191
 Transform:
@@ -355,29 +355,89 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Items:
-  - Prefab: {fileID: 7492721280114678380, guid: cec8589f9b8d9044cb83fc1978d8b79e,
+  - Prefab: {fileID: 3389786643091441743, guid: 17f47a0310e353c499e0c7863c5203df,
       type: 3}
-    Quantity: 15
+    Quantity: 3
     IsSafe: 0
-  - Prefab: {fileID: 3389786643091441743, guid: 6ba6b8d4d6071f84797dfe0c8b298a95,
+  - Prefab: {fileID: 3389786643091441743, guid: 36fecad40d2cf4540b6c91e36035dbe9,
       type: 3}
-    Quantity: 15
+    Quantity: 3
     IsSafe: 0
-  - Prefab: {fileID: 3389786643091441743, guid: ce93cfb97c51a19429291ee0b3b1c810,
+  - Prefab: {fileID: 3389786643091441743, guid: a74cdfc312c48d041a344562982fd6a7,
       type: 3}
-    Quantity: 15
+    Quantity: 3
     IsSafe: 0
-  - Prefab: {fileID: 7492721280114678380, guid: 79d00f8e17801c54d916b004b0c655ab,
+  - Prefab: {fileID: 3389786643091441743, guid: a9606f57ad18945459b6b1e2e783deb0,
       type: 3}
-    Quantity: 5
+    Quantity: 3
     IsSafe: 0
-  - Prefab: {fileID: 7492721280114678380, guid: f8cca480a86c95c4db8742bf1448e8f6,
+  - Prefab: {fileID: 3389786643091441743, guid: 872ac6f4ccb56af48a86ccc69cba72fc,
       type: 3}
-    Quantity: 5
+    Quantity: 3
     IsSafe: 0
-  - Prefab: {fileID: 7492721280114678380, guid: 3a4bc5cd2b3e3da4ba7791d26e42d651,
+  - Prefab: {fileID: 3389786643091441743, guid: 6e5e207949ff39149bc8f8229c397ad4,
       type: 3}
-    Quantity: 5
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: 2d479c9471d27a7489d18f7634ed0ca9,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: ac491f0136f83d647a62d0bec3141c26,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: 5f490c191bb176b4f86d8b4be06e1ce8,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: b72385d7609dc524b801a6f3aa10c564,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: 5c81b48b3050d0e439cd73442d6043b8,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: 9f5fa7b362ce73449b8a4b5c39de409d,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: dd7a0d93e9c0f3846ba27f4931635a55,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: 6df1b97658a2e734987b118eb744d772,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: e4ebb8937e0bd694096b6c5c3308d98b,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: 955b26d2de7e2c144b38bb1df53707fa,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: badf2119d16df944981469d06946c637,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: fd5bcd45f0caf104e896722ed3b552b2,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: 177ada47b0228ed428e0078a3a758902,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: b40151105e1afcb48bede55abd14812d,
+      type: 3}
+    Quantity: 3
+    IsSafe: 0
+  - Prefab: {fileID: 3389786643091441743, guid: 7cb95429d88ee0945b44351930623359,
+      type: 3}
+    Quantity: 3
     IsSafe: 0
   instanced: []
 --- !u!4 &339556997
@@ -668,7 +728,7 @@ MonoBehaviour:
   ItemsPool: {fileID: 339556996}
   SafeItemsPool: {fileID: 281364190}
   Increment: 0.01
-  Speed: 15
+  Speed: 10
   Direction: {x: 0, y: 0, z: -1}
   offset: {x: 0, y: 0, z: 0}
   Quantity: 25
@@ -773,8 +833,8 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.34376308
     - serializedVersion: 3
-      time: 0.4881261
-      value: -0.0019989014
+      time: 0.45211536
+      value: -0.002822876
       inSlope: -3.251847
       outSlope: -3.251847
       tangentMode: 0
@@ -786,7 +846,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   JumpScale: 5
   JumpDuration: 0.9
-  Speed: 6
+  Speed: 7
 --- !u!4 &736144506
 Transform:
   m_ObjectHideFlags: 0
