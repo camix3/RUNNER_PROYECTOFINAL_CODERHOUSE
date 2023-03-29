@@ -34,7 +34,12 @@ public class Move : MonoBehaviour
         yOriginal = tr.position.y;
         
     }
-    
+
+    private void OnEnable()
+    {
+        Scores.Instance.current.time = 0f;
+    }
+
 
     void Update()
     {
@@ -50,6 +55,8 @@ public class Move : MonoBehaviour
 
         tr.position = new Vector3(Horizontal, yOriginal + yOffset, 0);
         Pivot.rotation = Quaternion.Euler(xRotation, 0, 0);
+
+        Scores.Instance.current.time += Time.deltaTime;
 
     }
     //esto es el salto, le puse "fly" porque con el "jump" se me hubiesen mezclado las cosas.

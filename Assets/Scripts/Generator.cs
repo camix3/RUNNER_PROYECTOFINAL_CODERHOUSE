@@ -83,8 +83,12 @@ public class Generator : MonoBehaviour
         var elemntTransform = ItemsPool.GetRandom();
         elemntTransform.position = last.position - Direction * Displace;
         elemntTransform.gameObject.SetActive(true);
+        var collectables = elemntTransform.GetComponentsInChildren<Collectable>();
+        foreach (var g in collectables)
+            g.gameObject.SetActive(true);
         elements.Enqueue(elemntTransform);
 
+        Scores.Instance.current.km++;
         moved++;
     }
 }

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public AudioClip clip;
+   private void OnTriggerEnter(Collider other) 
     {
-        
+        if (other.gameObject.tag == "Player") 
+        {
+            Scores.Instance.current.Collectable++;
+            AudioHolder.Instance.Play(clip);
+            gameObject.SetActive(false); //se desactivan los coleccionables para poder reutilizarlos en vez de destruírlos.
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
