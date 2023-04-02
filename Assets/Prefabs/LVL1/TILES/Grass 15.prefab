@@ -2926,6 +2926,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1960576834135945633, guid: 0ef02a9e40f5e4fa7b74fb487cfd465d,
         type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960576834135945633, guid: 0ef02a9e40f5e4fa7b74fb487cfd465d,
+        type: 3}
       propertyPath: m_LocalScale.z
       value: 0.9047897
       objectReference: {fileID: 0}
@@ -5318,19 +5323,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4025730258245484511}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4410635636288282025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173514865218917382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3238eb753e28114459474a033b08a51c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trapType: 0
 --- !u!136 &4031858739578763670
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5345,6 +5337,19 @@ CapsuleCollider:
   m_Height: 2.0695763
   m_Direction: 1
   m_Center: {x: -0.034626007, y: 0.2566707, z: -0.022557259}
+--- !u!114 &4410635636288282025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173514865218917382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3238eb753e28114459474a033b08a51c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trapType: 0
 --- !u!4 &1946391913178582716 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3232666950386626915, guid: fa4178ed107dec64b83ea4fe40045ea3,
@@ -13951,6 +13956,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 181
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960576834135945633, guid: 0ef02a9e40f5e4fa7b74fb487cfd465d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.56
       objectReference: {fileID: 0}
     - target: {fileID: 1960576834135945633, guid: 0ef02a9e40f5e4fa7b74fb487cfd465d,
         type: 3}

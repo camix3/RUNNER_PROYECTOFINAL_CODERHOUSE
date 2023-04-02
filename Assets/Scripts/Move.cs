@@ -16,8 +16,8 @@ public class Move : MonoBehaviour
 
     public AnimationCurve JumpCurve;
     private bool Jumping = false;
-    public float JumpScale = 5f;
-    public float JumpDuration = 0.9f;
+    public float JumpScale = 3f;
+    public float JumpDuration = 1f;
     public float Speed;
 
     float yOriginal;
@@ -67,7 +67,7 @@ public class Move : MonoBehaviour
         float d = 0;
         while (d < JumpDuration) 
         {
-            d += Time.deltaTime;
+            d += Time.fixedDeltaTime;
             yOffset = JumpCurve.Evaluate(d/JumpDuration) * JumpScale;
             yield return null;
         }
