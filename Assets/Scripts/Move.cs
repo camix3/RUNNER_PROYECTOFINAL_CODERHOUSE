@@ -10,7 +10,7 @@ public class Move : MonoBehaviour
     public Transform Pivot;
     public AnimationCurve slideCurve;
     private bool Sliding = false;
-    public float SlideUpDownDuration = 1f;
+    public float SlideUpDownDuration = 0.5f;
     public float SlideDuration = 0.1f;
     public float SlideScale = -90f;
 
@@ -18,7 +18,7 @@ public class Move : MonoBehaviour
     private bool Jumping = false;
     public float JumpScale = 3f;
     public float JumpDuration = 1f;
-    public float Speed;
+    public float Speed = 7f;
 
     float yOriginal;
     float yOffset;
@@ -26,6 +26,7 @@ public class Move : MonoBehaviour
 
     internal Transform tr;
     internal Animator anim;
+
 
     void Awake()   
     {
@@ -35,10 +36,7 @@ public class Move : MonoBehaviour
         
     }
 
-    private void OnEnable()
-    {
-        Scores.Instance.current.time = 0f;
-    }
+  
 
 
     void Update()
@@ -51,12 +49,12 @@ public class Move : MonoBehaviour
         if (!Jumping && !Sliding && Input.GetButtonDown("Fire1"))
             StartCoroutine(slide());
 
+
+        
         Horizontal = Mathf.Clamp(Horizontal, MaxLeft, MaxRight);
 
         tr.position = new Vector3(Horizontal, yOriginal + yOffset, 0);
         Pivot.rotation = Quaternion.Euler(xRotation, 0, 0);
-
-        Scores.Instance.current.time += Time.deltaTime;
 
     }
     //esto es el salto, le puse "fly" porque con el "jump" se me hubiesen mezclado las cosas.
@@ -99,4 +97,7 @@ public class Move : MonoBehaviour
 
         Sliding = false;
     }
+
+  
+
 }

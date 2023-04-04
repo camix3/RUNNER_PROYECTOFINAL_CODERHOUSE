@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock06
       objectReference: {fileID: 0}
+    - target: {fileID: 112734, guid: b7bdd751d1270e14291b000d68d117c1, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 403954, guid: b7bdd751d1270e14291b000d68d117c1, type: 3}
       propertyPath: m_RootOrder
       value: 2

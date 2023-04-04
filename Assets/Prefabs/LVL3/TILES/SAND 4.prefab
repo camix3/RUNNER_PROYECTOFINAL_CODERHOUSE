@@ -536,6 +536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flat_Bone_02
       objectReference: {fileID: 0}
+    - target: {fileID: 124032, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
       propertyPath: m_RootOrder
       value: 2

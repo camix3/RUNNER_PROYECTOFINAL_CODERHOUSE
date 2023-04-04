@@ -1381,6 +1381,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Apple_Crown
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d21aedf96f53b994daee8ffe87d5be81,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d21aedf96f53b994daee8ffe87d5be81, type: 3}
 --- !u!1 &559598186090467459 stripped
@@ -12069,6 +12074,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bonfire_C_Big_Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 3000471530427855002, guid: 8126aaaf537b441af847b947a9ca4d2e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 3627333457442791220, guid: 8126aaaf537b441af847b947a9ca4d2e,
         type: 3}

@@ -9283,6 +9283,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Medieval_Cook '
       objectReference: {fileID: 0}
+    - target: {fileID: 7166699213319369471, guid: e794c7e0ecaac48cc822b755638fd4d1,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 7166699213319794399, guid: e794c7e0ecaac48cc822b755638fd4d1,
         type: 3}
       propertyPath: m_RootOrder

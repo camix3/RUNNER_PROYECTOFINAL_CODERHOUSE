@@ -2398,6 +2398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Poplar_Crown
       objectReference: {fileID: 0}
+    - target: {fileID: 5252115501947417456, guid: 5671c23aed998d347aea52c93758f966,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 8714378385308609603, guid: 5671c23aed998d347aea52c93758f966,
         type: 3}
       propertyPath: m_Enabled
@@ -4871,6 +4876,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Log
       objectReference: {fileID: 0}
+    - target: {fileID: 7223079279839087558, guid: 0435039a2aa390b45b18eb758c0f5fae,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 8031704813978472828, guid: 0435039a2aa390b45b18eb758c0f5fae,
         type: 3}
       propertyPath: m_RootOrder
@@ -5454,6 +5464,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Pine
       objectReference: {fileID: 0}
+    - target: {fileID: 8737893681180589846, guid: 060b1acc560c2df498f7f9023e53e323,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7621396287730221562, guid: 060b1acc560c2df498f7f9023e53e323, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 060b1acc560c2df498f7f9023e53e323, type: 3}
@@ -5477,7 +5492,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5487395955915116138}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.204908, y: 6.022224, z: 1.8973773}
@@ -9787,6 +9802,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Log (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7223079279839087558, guid: 0435039a2aa390b45b18eb758c0f5fae,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 8031704813978472828, guid: 0435039a2aa390b45b18eb758c0f5fae,
         type: 3}
       propertyPath: m_RootOrder
@@ -13089,6 +13109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Log (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223079279839087558, guid: 0435039a2aa390b45b18eb758c0f5fae,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 8031704813978472828, guid: 0435039a2aa390b45b18eb758c0f5fae,
         type: 3}

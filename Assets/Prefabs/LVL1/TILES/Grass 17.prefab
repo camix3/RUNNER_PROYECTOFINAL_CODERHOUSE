@@ -8149,6 +8149,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Light_ON
       objectReference: {fileID: 0}
+    - target: {fileID: 5814937682867955754, guid: 7518149b929dd405e8f6224fd017de1d,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 5814937682867955765, guid: 7518149b929dd405e8f6224fd017de1d,
         type: 3}
       propertyPath: m_RootOrder

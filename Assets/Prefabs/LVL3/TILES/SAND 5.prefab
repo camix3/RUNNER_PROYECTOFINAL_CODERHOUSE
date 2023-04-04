@@ -130,6 +130,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flat_Tree_02
       objectReference: {fileID: 0}
+    - target: {fileID: 131104, guid: 2222b58a5f6dde443bd027bc9bdf5d1d, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 432368, guid: 2222b58a5f6dde443bd027bc9bdf5d1d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -519,6 +523,10 @@ PrefabInstance:
     - target: {fileID: 163980, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_Name
       value: Mixed_Palm_tree_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 163980, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_RootOrder

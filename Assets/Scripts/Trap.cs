@@ -27,7 +27,4 @@ public delegate void TrapEvent(TrapType trapType);
 public enum TrapType 
 {
     impact,
-    water,
-    fire,
-    lava,
 }

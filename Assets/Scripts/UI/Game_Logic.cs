@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Game_Logic : MonoBehaviour
 {
-    public void ChangeScene()
+    public void ChangeScene(string name)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(name);
     }
 }

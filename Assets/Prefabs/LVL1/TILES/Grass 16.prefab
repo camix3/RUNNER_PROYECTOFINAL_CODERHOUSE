@@ -3534,6 +3534,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
+    - target: {fileID: 2852869673580555225, guid: fa4178ed107dec64b83ea4fe40045ea3,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 3232666950386626915, guid: fa4178ed107dec64b83ea4fe40045ea3,
         type: 3}
       propertyPath: m_RootOrder
@@ -9423,6 +9428,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Light_ON
       objectReference: {fileID: 0}
+    - target: {fileID: 5814937682867955754, guid: 7518149b929dd405e8f6224fd017de1d,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 5814937682867955765, guid: 7518149b929dd405e8f6224fd017de1d,
         type: 3}
       propertyPath: m_RootOrder
@@ -9497,6 +9507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858922733568119716, guid: 7518149b929dd405e8f6224fd017de1d,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5787605047696691913, guid: 7518149b929dd405e8f6224fd017de1d, type: 3}

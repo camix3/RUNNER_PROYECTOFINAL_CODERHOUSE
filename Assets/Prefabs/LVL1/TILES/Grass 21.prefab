@@ -799,6 +799,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Poplar
       objectReference: {fileID: 0}
+    - target: {fileID: 6576399048594658864, guid: 762fe15c3510d224eb350645d4169485,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6676533702011252158, guid: 762fe15c3510d224eb350645d4169485,
         type: 3}
       propertyPath: m_IsTrigger
@@ -10232,6 +10237,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barrel_Throwed
+      objectReference: {fileID: 0}
+    - target: {fileID: 485217247335850913, guid: 89635a58f7b1e49ffb76d0b3dcdb401a,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 485217247336284033, guid: 89635a58f7b1e49ffb76d0b3dcdb401a,
         type: 3}

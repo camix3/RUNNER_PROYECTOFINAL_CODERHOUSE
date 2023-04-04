@@ -12738,6 +12738,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Well
       objectReference: {fileID: 0}
+    - target: {fileID: 7194132442146875802, guid: 73b96e083ff1343898747eb86f8c5739,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 64629746330125038, guid: 73b96e083ff1343898747eb86f8c5739, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 73b96e083ff1343898747eb86f8c5739, type: 3}

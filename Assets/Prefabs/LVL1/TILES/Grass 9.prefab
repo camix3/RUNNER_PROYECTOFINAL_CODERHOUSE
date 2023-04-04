@@ -2095,6 +2095,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Banner_A_(1)_Banner_War_Alone
       objectReference: {fileID: 0}
+    - target: {fileID: 8751111850691709387, guid: 32170d0b155a741b88ac034c00943ac7,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 8751111850692138475, guid: 32170d0b155a741b88ac034c00943ac7,
         type: 3}
       propertyPath: m_RootOrder
@@ -6846,6 +6851,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bonfire_B_Small_Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219500903613775397, guid: 8c24f4efc20ae488386410c07ba7ec0c,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 2251056745611087671, guid: 8c24f4efc20ae488386410c07ba7ec0c,
         type: 3}

@@ -4354,6 +4354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LampPost_double
       objectReference: {fileID: 0}
+    - target: {fileID: 1269430370410058, guid: 6d2bb9154d502fd46a5faf6e3b55f9f1, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 4361623287756760, guid: 6d2bb9154d502fd46a5faf6e3b55f9f1, type: 3}
       propertyPath: m_RootOrder
       value: 180
@@ -13900,6 +13904,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Banner_A_(2)_Banner_War_Wood_Flag_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034989796248895005, guid: df98d49cad8fc4f7eb97a173332f86a7,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 8165136090476346949, guid: df98d49cad8fc4f7eb97a173332f86a7,
         type: 3}

@@ -67,6 +67,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_B
       objectReference: {fileID: 0}
+    - target: {fileID: 4511177118366572885, guid: 58363587a2b6e4ee7b0ec99bd270f264,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58363587a2b6e4ee7b0ec99bd270f264, type: 3}
 --- !u!1001 &2836159561103246745
@@ -76,6 +81,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 514624638361170376, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 600914878348611026, guid: 6d0845fcb351c8943890b848c96a03e4,
         type: 3}
       propertyPath: m_Name
@@ -135,6 +145,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747202535414124390, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2017882655880938610, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2017882656811946835, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2017882657079340961, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594136561325872368, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880296664798688311, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880296665068161221, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880296665999171556, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8536808271888624222, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d0845fcb351c8943890b848c96a03e4, type: 3}
@@ -541,6 +596,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock01 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4461770885068192868, guid: d9cd943d6e6a66d41a8f4c236b15c254,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9cd943d6e6a66d41a8f4c236b15c254, type: 3}
 --- !u!1001 &4036538951166080197
@@ -610,6 +670,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock01 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4461770885068192868, guid: d9cd943d6e6a66d41a8f4c236b15c254,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3973638855388331786, guid: d9cd943d6e6a66d41a8f4c236b15c254, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d9cd943d6e6a66d41a8f4c236b15c254, type: 3}
@@ -656,6 +721,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518714379853637928, guid: 6f3482d1ecbd14e92a3759687c8adee3,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 8518714379854132488, guid: 6f3482d1ecbd14e92a3759687c8adee3,
         type: 3}
@@ -814,6 +884,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock01 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 4461770885068192868, guid: d9cd943d6e6a66d41a8f4c236b15c254,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9cd943d6e6a66d41a8f4c236b15c254, type: 3}
 --- !u!1001 &6109596617199955632
@@ -937,6 +1012,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518714379853637928, guid: 6f3482d1ecbd14e92a3759687c8adee3,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 8518714379854132488, guid: 6f3482d1ecbd14e92a3759687c8adee3,
         type: 3}
@@ -1181,6 +1261,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4461770885068192868, guid: d9cd943d6e6a66d41a8f4c236b15c254,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9cd943d6e6a66d41a8f4c236b15c254, type: 3}
 --- !u!1001 &7701666680238270474
@@ -1194,6 +1279,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock_C
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500079718951094077, guid: dbb10ca490d364e2e8c2c62ea0f928c7,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 5500079718951459613, guid: dbb10ca490d364e2e8c2c62ea0f928c7,
         type: 3}
@@ -1318,6 +1408,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4461770885068192868, guid: d9cd943d6e6a66d41a8f4c236b15c254,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9cd943d6e6a66d41a8f4c236b15c254, type: 3}

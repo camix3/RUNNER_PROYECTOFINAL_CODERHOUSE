@@ -3505,6 +3505,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stake_A
       objectReference: {fileID: 0}
+    - target: {fileID: 7783005458646767046, guid: fa112b1d166774679a87fca9880fecce,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 7783005458647124454, guid: fa112b1d166774679a87fca9880fecce,
         type: 3}
       propertyPath: m_RootOrder

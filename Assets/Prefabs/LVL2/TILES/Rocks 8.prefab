@@ -142,6 +142,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bonfire_C_Small_Fire
       objectReference: {fileID: 0}
+    - target: {fileID: 4826523101293223257, guid: bacc70b09c9614d89b194c1335f0f49d,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 7028253062857378311, guid: bacc70b09c9614d89b194c1335f0f49d,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -266,6 +271,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 514624638361170376, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 600914878348611026, guid: 6d0845fcb351c8943890b848c96a03e4,
         type: 3}
       propertyPath: m_Name
@@ -325,6 +335,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747202535414124390, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2017882655880938610, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2017882656811946835, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2017882657079340961, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594136561325872368, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880296664798688311, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880296665068161221, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880296665999171556, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8536808271888624222, guid: 6d0845fcb351c8943890b848c96a03e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d0845fcb351c8943890b848c96a03e4, type: 3}

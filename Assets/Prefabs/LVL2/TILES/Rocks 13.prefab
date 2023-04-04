@@ -114,6 +114,16 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7617753223160520483, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617753223427908561, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 7617753224005949065, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}
       propertyPath: m_Name
@@ -193,6 +203,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617753224662468610, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7892568057932284694, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255968681650896312, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b6987c9317a848c6b3a85b9bbf8afc6, type: 3}
@@ -688,6 +713,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 3017439339022321940, guid: 74f1e8b0d3a51422ca762da3f9187ec1,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 64489031472181812, guid: 74f1e8b0d3a51422ca762da3f9187ec1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 74f1e8b0d3a51422ca762da3f9187ec1, type: 3}
@@ -783,6 +813,16 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7617753223160520483, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617753223427908561, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 7617753224005949065, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}
       propertyPath: m_Name
@@ -862,6 +902,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617753224662468610, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7892568057932284694, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255968681650896312, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b6987c9317a848c6b3a85b9bbf8afc6, type: 3}

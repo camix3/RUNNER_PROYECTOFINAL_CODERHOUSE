@@ -74,14 +74,13 @@ public class ScoreList
 [System.Serializable]
 public class Score 
 {
-    public float time;
     public float km;
     public float Collectable;
 
-    public float Compute() => Mathf.Clamp(km * (Collectable / 10f + 1) - time, 0f, 9999999f);
+    public float Compute() => Mathf.Clamp(km * (Collectable / 10f + 1) , 0f, 9999f);
 
     public override string ToString()
     {
-        return $"-Seconds: {time.ToString("0.00")} -km: {(km/10f).ToString("0.00")} -Collectable:{Collectable.ToString ("0")}";
+        return $"°km: {(km/10f).ToString("0.00")} °Collectable:{Collectable.ToString ("0")}";
     }
 }
