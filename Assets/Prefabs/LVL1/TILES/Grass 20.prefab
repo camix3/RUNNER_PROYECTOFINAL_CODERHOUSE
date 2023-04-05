@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3389786643091441742}
   - component: {fileID: 3389786643091441741}
   - component: {fileID: 3389786643091441740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grass 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,8 +296,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
+        type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433335014, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}
@@ -9369,8 +9374,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
+        type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433335014, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}
@@ -9952,8 +9962,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
+        type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433335014, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}
@@ -11204,8 +11219,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
+        type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433335014, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}
@@ -12306,8 +12326,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
+        type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433335014, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}
@@ -13183,8 +13208,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571787322433106630, guid: 6ac5329b57f29464193d937cd106fc4f,
+        type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6571787322433335014, guid: 6ac5329b57f29464193d937cd106fc4f,
         type: 3}

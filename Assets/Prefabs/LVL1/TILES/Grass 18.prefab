@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3389786643091441742}
   - component: {fileID: 3389786643091441741}
   - component: {fileID: 3389786643091441740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grass 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3490,16 +3490,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3389786643091441743}
     m_Modifications:
-    - target: {fileID: 64706396093006826, guid: fa112b1d166774679a87fca9880fecce,
-        type: 3}
-      propertyPath: m_Convex
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 64706396093006826, guid: fa112b1d166774679a87fca9880fecce,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7783005458646767046, guid: fa112b1d166774679a87fca9880fecce,
         type: 3}
       propertyPath: m_Name
@@ -3507,8 +3497,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7783005458646767046, guid: fa112b1d166774679a87fca9880fecce,
         type: 3}
-      propertyPath: m_TagString
-      value: obstacle
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7783005458647124454, guid: fa112b1d166774679a87fca9880fecce,
         type: 3}
@@ -3573,25 +3563,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2221221827188208675}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &8273560299231289829 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7783005458646767046, guid: fa112b1d166774679a87fca9880fecce,
-    type: 3}
-  m_PrefabInstance: {fileID: 2221221827188208675}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4106990501206046500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273560299231289829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3238eb753e28114459474a033b08a51c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trapType: 0
 --- !u!1001 &2283224373732570438
 PrefabInstance:
   m_ObjectHideFlags: 0

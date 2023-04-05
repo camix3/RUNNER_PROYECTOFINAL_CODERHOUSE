@@ -12,14 +12,15 @@ public class Move : MonoBehaviour
     private bool Sliding = false;
     public float SlideUpDownDuration = 0.5f;
     public float SlideDuration = 0.1f;
-    public float SlideScale = -90f;
+    public float SlideScale = -50f;
 
     public AnimationCurve JumpCurve;
     private bool Jumping = false;
     public float JumpScale = 3f;
-    public float JumpDuration = 1f;
+    public float JumpDuration = 2f;
     public float Speed = 7f;
-
+    public bool isDead;
+   
     float yOriginal;
     float yOffset;
     float xRotation;
@@ -36,9 +37,7 @@ public class Move : MonoBehaviour
         
     }
 
-  
-
-
+   
     void Update()
     {
         Horizontal += Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
@@ -48,14 +47,15 @@ public class Move : MonoBehaviour
         
         if (!Jumping && !Sliding && Input.GetButtonDown("Fire1"))
             StartCoroutine(slide());
-
+        if (isDead == true)
+            Die();
 
         
         Horizontal = Mathf.Clamp(Horizontal, MaxLeft, MaxRight);
 
         tr.position = new Vector3(Horizontal, yOriginal + yOffset, 0);
         Pivot.rotation = Quaternion.Euler(xRotation, 0, 0);
-
+       
     }
     //esto es el salto, le puse "fly" porque con el "jump" se me hubiesen mezclado las cosas.
     public IEnumerator fly() 
@@ -98,6 +98,15 @@ public class Move : MonoBehaviour
         Sliding = false;
     }
 
-  
-
+    public void Die()
+    {
+        isDead = true;
+        if (isDead)
+            return;
+        isDead = true;
+        anim.CrossFade("Die", 1f);
+        Horizontal = 0f;
+        enabled = false;
+    }
+   
 }

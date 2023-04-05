@@ -117,8 +117,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7617753223160520483, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617753223160520483, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617753223427908561, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7617753223427908561, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}
@@ -207,13 +217,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7617753224662468610, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617753224662468610, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 7892568057932284694, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7892568057932284694, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255968681650896312, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8255968681650896312, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}
@@ -531,6 +556,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8518714379853637928, guid: 6f3482d1ecbd14e92a3759687c8adee3,
         type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518714379853637928, guid: 6f3482d1ecbd14e92a3759687c8adee3,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
       objectReference: {fileID: 0}
@@ -754,6 +784,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5500079718951094077, guid: dbb10ca490d364e2e8c2c62ea0f928c7,
         type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500079718951094077, guid: dbb10ca490d364e2e8c2c62ea0f928c7,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
       objectReference: {fileID: 0}
@@ -867,8 +902,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7617753223160520483, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617753223160520483, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617753223427908561, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7617753223427908561, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}
@@ -957,13 +1002,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7617753224662468610, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617753224662468610, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 7892568057932284694, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7892568057932284694, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255968681650896312, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8255968681650896312, guid: 2b6987c9317a848c6b3a85b9bbf8afc6,
         type: 3}

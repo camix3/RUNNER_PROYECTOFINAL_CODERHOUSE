@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3389786643091441742}
   - component: {fileID: 3389786643091441741}
   - component: {fileID: 3389786643091441740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grass 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6190,8 +6190,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1001413641367327920, guid: 2ed0f8800c17749c19ab3252a6961dc8,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001413641367327920, guid: 2ed0f8800c17749c19ab3252a6961dc8,
+        type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7176258747523741959, guid: 2ed0f8800c17749c19ab3252a6961dc8, type: 3}

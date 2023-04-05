@@ -404,50 +404,6 @@ RectTransform:
   m_AnchoredPosition: {x: 39, y: -111.899994}
   m_SizeDelta: {x: 600, y: 789.42993}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &101872092
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 101872094}
-  - component: {fileID: 101872093}
-  m_Layer: 0
-  m_Name: Controller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &101872093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 101872092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 465f94cc55604bd4c972fabaf6f9cb3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &101872094
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 101872092}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1202.5139, y: 431.87167, z: 1.910768}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &153380961
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,7 +701,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 300787110}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -1780,7 +1736,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &984431546
 GameObject:
@@ -1860,7 +1816,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -71}
+  m_AnchoredPosition: {x: -0.000061035156, y: -70.99997}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1036850421
@@ -2403,7 +2359,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1266261825}
   - component: {fileID: 1266261824}
-  - component: {fileID: 1266261826}
   m_Layer: 0
   m_Name: PlayerMove
   m_TagString: Player
@@ -2453,7 +2408,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   SlideUpDownDuration: 0.5
   SlideDuration: 0.1
-  SlideScale: -90
+  SlideScale: -50
   JumpCurve:
     serializedVersion: 2
     m_Curve:
@@ -2488,8 +2443,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   JumpScale: 3
-  JumpDuration: 1
+  JumpDuration: 3
   Speed: 7
+  isDead: 0
 --- !u!4 &1266261825
 Transform:
   m_ObjectHideFlags: 0
@@ -2507,50 +2463,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1266261826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266261823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81e6fa0a5d09b41489dba51d40728a27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LoseScreen: {fileID: 1720007571}
-  generator: {fileID: 74409347}
-  move: {fileID: 1266261824}
-  death: 0
-  deathDuration: 3
-  deathUpDownDuration: 0.5
-  deathScale: -90
-  deathCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  scoreText: {fileID: 683286442}
 --- !u!1 &1325709315
 GameObject:
   m_ObjectHideFlags: 0
@@ -2647,7 +2559,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 101872093}
+      - m_Target: {fileID: 1635491974}
         m_TargetAssemblyTypeName: Game_Logic, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -3565,6 +3477,50 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1635491973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1635491975}
+  - component: {fileID: 1635491974}
+  m_Layer: 0
+  m_Name: Controller (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1635491974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635491973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 465f94cc55604bd4c972fabaf6f9cb3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1635491975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635491973}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1202.5139, y: 431.87167, z: 1.910768}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1673569920
 GameObject:
   m_ObjectHideFlags: 0
@@ -3748,6 +3704,7 @@ GameObject:
   - component: {fileID: 1720007572}
   - component: {fileID: 1720007574}
   - component: {fileID: 1720007573}
+  - component: {fileID: 1720007575}
   m_Layer: 5
   m_Name: LoseScreen
   m_TagString: Untagged
@@ -3817,6 +3774,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720007571}
   m_CullTransparentMesh: 1
+--- !u!114 &1720007575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720007571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e6fa0a5d09b41489dba51d40728a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoseScreen: {fileID: 1720007571}
+  generator: {fileID: 74409347}
+  move: {fileID: 1266261824}
+  scoreText: {fileID: 683286442}
 --- !u!1 &1757254086
 GameObject:
   m_ObjectHideFlags: 0
@@ -4689,7 +4662,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2103061469
 GameObject:

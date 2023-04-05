@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3389786643091441742}
   - component: {fileID: 3389786643091441741}
   - component: {fileID: 3389786643091441740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grass 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3534,11 +3534,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 2852869673580555225, guid: fa4178ed107dec64b83ea4fe40045ea3,
-        type: 3}
-      propertyPath: m_TagString
-      value: obstacle
-      objectReference: {fileID: 0}
     - target: {fileID: 3232666950386626915, guid: fa4178ed107dec64b83ea4fe40045ea3,
         type: 3}
       propertyPath: m_RootOrder
@@ -3594,42 +3589,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2289843877118288597, guid: fa4178ed107dec64b83ea4fe40045ea3, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa4178ed107dec64b83ea4fe40045ea3, type: 3}
---- !u!1 &513432216762528844 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2852869673580555225, guid: fa4178ed107dec64b83ea4fe40045ea3,
-    type: 3}
-  m_PrefabInstance: {fileID: 2357491725512990613}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &6715021025684643902
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513432216762528844}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.92687225
-  m_Height: 3.702603
-  m_Direction: 1
-  m_Center: {x: -0.034626007, y: -0.55783355, z: -0.022557259}
---- !u!114 &4850343694484141538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513432216762528844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3238eb753e28114459474a033b08a51c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trapType: 0
 --- !u!4 &895023686894972662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3232666950386626915, guid: fa4178ed107dec64b83ea4fe40045ea3,
@@ -9510,8 +9471,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8858922733568119716, guid: 7518149b929dd405e8f6224fd017de1d,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858922733568119716, guid: 7518149b929dd405e8f6224fd017de1d,
+        type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5787605047696691913, guid: 7518149b929dd405e8f6224fd017de1d, type: 3}

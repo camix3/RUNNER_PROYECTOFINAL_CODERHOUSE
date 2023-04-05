@@ -13,6 +13,7 @@ public class Trap : MonoBehaviour
         {
             OnTrap?.Invoke(trapType);
         }
+
     }
 
     private void OnDestroy()

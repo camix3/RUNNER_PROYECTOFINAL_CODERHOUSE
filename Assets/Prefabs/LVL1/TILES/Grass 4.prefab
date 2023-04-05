@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3389786643091441742}
   - component: {fileID: 3389786643091441741}
   - component: {fileID: 3389786643091441740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grass 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4355,8 +4355,12 @@ PrefabInstance:
       value: LampPost_double
       objectReference: {fileID: 0}
     - target: {fileID: 1269430370410058, guid: 6d2bb9154d502fd46a5faf6e3b55f9f1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1269430370410058, guid: 6d2bb9154d502fd46a5faf6e3b55f9f1, type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 4361623287756760, guid: 6d2bb9154d502fd46a5faf6e3b55f9f1, type: 3}
       propertyPath: m_RootOrder
@@ -13907,8 +13911,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6034989796248895005, guid: df98d49cad8fc4f7eb97a173332f86a7,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034989796248895005, guid: df98d49cad8fc4f7eb97a173332f86a7,
+        type: 3}
       propertyPath: m_TagString
-      value: obstacle
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 8165136090476346949, guid: df98d49cad8fc4f7eb97a173332f86a7,
         type: 3}
